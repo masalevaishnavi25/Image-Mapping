@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.image{
+    width: 60%;
+    height: 80%;
+    border: 1px solid black;
+}
+
+.image img{
+    width: fit-content;
+    height: fit-content;
+}
