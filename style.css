@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgba(255, 255, 255, 0.885);
+}
+
 .wrapper{
     width: 80vw;
     height: 100vh;
@@ -11,13 +15,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .image{
     width: 60%;
     height: 80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .image img{
